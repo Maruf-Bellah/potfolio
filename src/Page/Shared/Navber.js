@@ -4,8 +4,9 @@ import { Link, NavLink } from 'react-router-dom';
 const Navber = () => {
      const menuItem = <>
           <li><Link to='/'>Home</Link></li>
+          <li><Link to='/allProject'>Projects</Link></li>
+          <li><Link to='/allSkill'>All Skill</Link></li>
           <li><Link to='/about'>About</Link></li>
-          <li><Link to='/allWebsite'>AllWebsite</Link></li>
      </>
 
      return (
@@ -15,7 +16,7 @@ const Navber = () => {
                <div className="navbar lg:px-12 bg-secondary justify-between">
                     <div className="navbar-start">
 
-                         <p className="btn btn-ghost normal-case text-xl"><Link to='/'>potfolio</Link></p>
+                         <p className="btn btn-ghost normal-case font-bold text-xl"><Link to='/'>Portfolio</Link></p>
 
                     </div>
                     <div className="navbar-end hidden lg:flex">

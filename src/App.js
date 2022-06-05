@@ -3,9 +3,9 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Page/Home/Home';
 import About from './Page/Home/About';
-import AllWebsite from './Page/Home/AllWebsite';
 import Navber from './Page/Shared/Navber';
-import Footer from './Page/Shared/Footer';
+import AllProject from './Page/Home/Project/AllProject';
+import AllSkill from './Page/Home/AllSkill/AllSkill';
 
 function App() {
   return (
@@ -14,7 +14,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route path='/allWebsite' element={<AllWebsite></AllWebsite>}></Route>
+        <Route path='/allProject' element={<AllProject></AllProject>}></Route>
+        <Route path='/allSkill' element={<AllSkill></AllSkill>}></Route>
       </Routes>
     </div>
   );
