@@ -8,9 +8,10 @@ const AboutMe = () => {
                     <div className="hero-content flex-col lg:flex-row">
                          <img className='w-6/6 md:w-5/6 lg:w-3/6' src={img} alt='' />
                          <div>
-                              <h1 className="text-5xl font-bold text-primary">About me ...!</h1>
-                              <p className="py-6 text-justify text-inherit">Provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci delectus nemo minus pariatur, deserunt doloribus incidunt quo sunt, a in perspiciatis necessitatibus iusto illum eius, nobis reprehenderit inventore? Temporibus minima nemo deleniti fugiat exercitationem assumenda totam sunt esse ea eos neque molestias asperiores, quo consequatur labore. Facilis quasi officia sunt a aliquam ex quo assumenda quasi. cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                              <button className="btn btn-primary">Get Started ➜</button>
+                              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary uppercase">About me ...!</h1>
+                              <p className='pt-5'>Hi, This is Maruf bellah</p>
+                              <p className="py-6 text-justify text-inherit">A junior web developer. I like to focus on coding and learning new techniques, I'm currently studying science, and I did a course from where I learned a lot, I will learn a lot more in the future inshallah, if you want you can try it once I'm ready for, I want to satisfy you because it is my duty, so if you have any questions about this you can ask me free mind no problem. And last but not least I like coding, that's why I do it.</p>
+                              <button className="btn btn-secondary">Get Started ➜</button>
                          </div>
                     </div>
                </div>

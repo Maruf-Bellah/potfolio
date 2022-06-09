@@ -13,14 +13,14 @@ const Navber = () => {
           <div className='' style={{
                backgrundColor: `'#F4FEFF'`
           }}>
-               <div className="navbar lg:px-12 bg-secondary justify-between">
+               <div className="navbar lg:px-12 bg-primary text-white font-bolder justify-between">
                     <div className="navbar-start">
 
-                         <p className="btn btn-ghost normal-case font-bold text-xl"><Link to='/'>Portfolio</Link></p>
+                         <p className="btn btn-ghost normal-case font-bold text-2xl"><Link to='/'>Portfolio</Link></p>
 
                     </div>
                     <div className="navbar-end hidden lg:flex">
-                         <ul className="menu menu-horizontal p-0">
+                         <ul className="menu menu-horizontal font-bold p-0">
                               {menuItem}
                          </ul>
 
@@ -28,10 +28,10 @@ const Navber = () => {
 
                     </div>
                     <div className="dropdown dropdown-end">
-                         <label tabIndex="0" className="btn btn-link lg:hidden">
-                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                         <label tabIndex="0" className="btn btn-ghost  lg:hidden">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block text-white w-10 h-7 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                          </label>
-                         <ul tabIndex="0" className="menu  menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                         <ul tabIndex="0" className="menu  menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 font-bold text-black  rounded-box w-52">
                               {menuItem}
                          </ul>
                     </div>

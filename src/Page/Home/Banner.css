@@ -2,7 +2,10 @@
      display: block;
      box-sizing: border-box;
      height: auto;
-     background-color: #B7DCE7;
+     /* background-color: #3257B5; */
+     background-color: #075985;
+     /* background-color: #6022EA; */
+     /* background-color: #37c0e2; */
      clip-path: ellipse(120% 100% at 50.31% 0%);
 }
 

@@ -12,9 +12,9 @@ import { Link } from 'react-router-dom';
 const Skill = () => {
      return (
           <div className='py-12 lg:px-12 p-5'>
-               <h1 className='text-5xl font-bold text-center text-primary pb-8'>This is my skill...!</h1>
+               <h1 className='text-3xl md:text-4xl lg:text-5xl uppercase font-bold text-center text-primary pb-8'>This is my skill...!</h1>
                <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-10'>
-                    <div className='text-center hover:shadow-xl rounded-xl shadow'>
+                    <div className='text-center hover:shadow-2xl rounded-xl shadow'>
                          <div className="avatar ">
                               <div className="w-24 rounded-full">
                                    <img src={html} alt='' />
@@ -22,7 +22,7 @@ const Skill = () => {
                          </div>
                          <h2 className='text-2xl font-bold py-3'>HTML</h2>
                     </div>
-                    <div className='text-center hover:shadow-xl shadow rounded-xl'>
+                    <div className='text-center hover:shadow-2xl shadow rounded-xl'>
                          <div className="avatar ">
                               <div className="w-24 rounded-full">
                                    <img src={css} alt='' />
@@ -30,7 +30,7 @@ const Skill = () => {
                          </div>
                          <h2 className='text-2xl font-bold py-3'>CSS</h2>
                     </div>
-                    <div className='text-center hover:shadow-xl shadow rounded-xl'>
+                    <div className='text-center hover:shadow-2xl shadow rounded-xl'>
                          <div className="avatar ">
                               <div className="w-24 rounded-full">
                                    <img src={js} alt='' />
@@ -38,7 +38,7 @@ const Skill = () => {
                          </div>
                          <h2 className='text-2xl font-bold py-3'>javascript</h2>
                     </div>
-                    <div className='text-center hover:shadow-xl shadow rounded-xl'>
+                    <div className='text-center hover:shadow-2xl shadow rounded-xl'>
                          <div className="avatar ">
                               <div className="w-24 rounded-full">
                                    <img src={bootstrap} alt='' />
@@ -46,7 +46,7 @@ const Skill = () => {
                          </div>
                          <h2 className='text-2xl font-bold py-3'>Bootstrap</h2>
                     </div>
-                    <div className='text-center hover:shadow-xl shadow rounded-xl'>
+                    <div className='text-center hover:shadow-2xl shadow rounded-xl'>
                          <div className="avatar ">
                               <div className="w-24 rounded-full">
                                    <img src={tailwind} alt='' />
@@ -54,7 +54,7 @@ const Skill = () => {
                          </div>
                          <h2 className='text-2xl font-bold py-3'>Tailwind</h2>
                     </div>
-                    <div className='text-center hover:shadow-xl shadow rounded-xl'>
+                    <div className='text-center hover:shadow-2xl shadow rounded-xl'>
                          <div className="avatar ">
                               <div className="w-24 rounded-full">
                                    <img src={react} alt='' />
@@ -62,7 +62,7 @@ const Skill = () => {
                          </div>
                          <h2 className='text-2xl font-bold py-3'>React</h2>
                     </div>
-                    <div className='text-center hover:shadow-xl shadow rounded-xl'>
+                    <div className='text-center hover:shadow-2xl shadow rounded-xl'>
                          <div className="avatar ">
                               <div className="w-20 rounded-full">
                                    <img src={node} alt='' />
@@ -70,7 +70,7 @@ const Skill = () => {
                          </div>
                          <h2 className='text-2xl font-bold py-3'>Node</h2>
                     </div>
-                    <div className='text-center hover:shadow-xl shadow rounded-xl'>
+                    <div className='text-center hover:shadow-2xl shadow rounded-xl'>
                          <div className="avatar">
                               <div className="w-24 rounded-full">
                                    <img src={mongoDB} alt='' />
