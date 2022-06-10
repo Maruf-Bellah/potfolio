@@ -5,11 +5,11 @@ import location from './Location tracking.gif';
 
 const Service = () => {
      return (
-          <div className='py-12 lg:px-12 p-5'>
+          <div className='py-16 lg:px-12 p-5'>
                <div className='grid lg:font-bold md:grid-cols-2 justify-center lg:grid-cols-3 gap-20'>
                     <div className='text-center '>
-                         <div className="avatar ">
-                              <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                         <div className="avatar mb-5">
+                              <div className="w-24  rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                    <img className='' src={programer} alt='' />
                               </div>
                          </div>
@@ -17,7 +17,7 @@ const Service = () => {
                          <h5 className='font-bold  text-2xl'>Developer</h5>
                     </div>
                     <div className='text-center'>
-                         <div className="avatar">
+                         <div className="avatar mb-5">
                               <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                    <img src={cicle} alt='' />
                               </div>
@@ -26,7 +26,7 @@ const Service = () => {
                          <h5 className='font-bold  text-2xl'>Design</h5>
                     </div>
                     <div className='text-center'>
-                         <div className="avatar">
+                         <div className="avatar mb-5">
                               <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                    <img src={location} alt='' />
                               </div>

@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Navber = () => {
      const menuItem = <>
           <li><Link to='/'>Home</Link></li>
-          <li><Link to='/allProject'>Projects</Link></li>
+          <li><Link to='allProject'>Projects</Link></li>
           <li><Link to='/allSkill'>All Skill</Link></li>
           <li><Link to='/about'>About</Link></li>
      </>
@@ -13,7 +13,7 @@ const Navber = () => {
           <div className='' style={{
                backgrundColor: `'#F4FEFF'`
           }}>
-               <div className="navbar lg:px-12 bg-primary text-white font-bolder justify-between">
+               <div className="navbar lg:px-0 bg-primary text-white font-bolder justify-between">
                     <div className="navbar-start">
 
                          <p className="btn btn-ghost normal-case font-bold text-2xl"><Link to='/'>Portfolio</Link></p>

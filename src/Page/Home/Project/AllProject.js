@@ -23,12 +23,12 @@ const AllProject = () => {
                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
 
 
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img1} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title uppercase">Hand Tools</h2>
+                         <div className="card-body">
+                              <h2 className="card-title uppercase">Hand Tools</h2>
                               <p>It is used,HTML,CSS, JS, Bootstrap, React, Node, MongoDb, Firebase</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
                                    <a href="https://last-assainment.web.app/" target='_blank' >
 
                                         <button className="btn btn-link">Lest Go to Website</button>
@@ -36,12 +36,12 @@ const AllProject = () => {
                               </div>
                          </div>
                     </div>
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img2} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title">Doctor-Portal</h2>
+                         <div className="card-body">
+                              <h2 className="card-title">Doctor-Portal</h2>
                               <p>It is used,HTML,CSS, JS, Bootstrap, React, Node, MongoDb, Firebase</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
                                    <a href="https://doctors-portal-f6a0a.web.app/" target='_blank' >
 
                                         <button className="btn btn-link">Lest Go to Website</button>
@@ -49,12 +49,12 @@ const AllProject = () => {
                               </div>
                          </div>
                     </div>
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img3} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title">Car-Web</h2>
+                         <div className="card-body">
+                              <h2 className="card-title">Car-Web</h2>
                               <p>It is used,HTML,CSS, JS, Bootstrap, React, Node, MongoDb, Firebase</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
                                    <a href="https://carweb-b913e.web.app/" target='_blank' >
 
                                         <button className="btn btn-link">Lest Go to Website</button>
@@ -62,12 +62,12 @@ const AllProject = () => {
                               </div>
                          </div>
                     </div>
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img4} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title">Tutor</h2>
+                         <div className="card-body">
+                              <h2 className="card-title">Tutor</h2>
                               <p>IT is used,HTML, CSS , JS, Bootstrap, React js</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
                                    <a href="https://assainment-3fdcb.web.app/" target='_blank' >
 
                                         <button className="btn btn-link">Lest Go to Website</button>
@@ -75,12 +75,12 @@ const AllProject = () => {
                               </div>
                          </div>
                     </div>
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img5} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title">Programer</h2>
+                         <div className="card-body">
+                              <h2 className="card-title">Programer</h2>
                               <p>IT is used,HTML, CSS , JS, Bootstrap, React js</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
                                    <a href="https://scintillating-tiramisu-f8ae90.netlify.app/" target='_blank' >
 
                                         <button className="btn btn-link">Lest Go to Website</button>
@@ -88,12 +88,12 @@ const AllProject = () => {
                               </div>
                          </div>
                     </div>
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img9} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title">TShirt Mania</h2>
+                         <div className="card-body">
+                              <h2 className="card-title">TShirt Mania</h2>
                               <p>It is used, HTML, SCC, JS</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
 
                                    <a href="https://stirring-marzipan-95a441.netlify.app/" target='_blank' >
 
@@ -102,12 +102,12 @@ const AllProject = () => {
                               </div>
                          </div>
                     </div>
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img7} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title uppercase">Nike</h2>
+                         <div className="card-body">
+                              <h2 className="card-title uppercase">Nike</h2>
                               <p>It is used, only HTML , CSS, Bootstrap</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
                                    <a href="https://glowing-truffle-8ccc94.netlify.app/" target='_blank' >
 
                                         <button className="btn btn-link">Lest Go to Website</button>
@@ -115,12 +115,12 @@ const AllProject = () => {
                               </div>
                          </div>
                     </div>
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img8} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title">Penguin Fashion</h2>
+                         <div className="card-body">
+                              <h2 className="card-title">Penguin Fashion</h2>
                               <p>It is used, only HTML , CSS, Bootstrap</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
                                    <a href="https://penguin-ayesha.netlify.app/" target='_blank' >
 
                                         <button className="btn btn-link">Lest Go to Website</button>
@@ -128,12 +128,12 @@ const AllProject = () => {
                               </div>
                          </div>
                     </div>
-                    <div class="card card-compact  bg-base-100 shadow-xl">
+                    <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img6} alt="Shoes" /></figure>
-                         <div class="card-body">
-                              <h2 class="card-title">Ayesha Convention Center</h2>
+                         <div className="card-body">
+                              <h2 className="card-title">Ayesha Convention Center</h2>
                               <p>It is used, only HTML , CSS, Bootstrap</p>
-                              <div class="card-actions justify-end">
+                              <div className="card-actions justify-end">
                                    <a href="https://web-ayesha.netlify.app/" target='_blank' >
                                         <button className="btn btn-link">Lest Go to Website</button>
                                    </a>
