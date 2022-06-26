@@ -18,8 +18,8 @@ const About = () => {
      return (
           <div className='lg:px-12 pt-5'>
 
-               <div className='grid md:grid-cols-2 lg:grid-cols-2 gap-32'>
-                    <div className=''>
+               <div className='grid lg:text-medium md:grid-cols-2 lg:grid-cols-2 gap-32'>
+                    <div className='p-5 text-justify'>
                          <h1 className='text-2xl'>About me ...</h1>
                          <p> I'm a decent Mern Stack developer. I have been learning and practicing it for years. By the time I have done some full-stack projects and explored new technologies. Being a very enthusiastic person I love to learn new things and am eager to know them even more than once. Maybe I don't know the technology you're looking for, but give me a week I'm gonna change your mind. I like doing team projects, problem-solving, and making strategic decisions.
                          </p>
@@ -37,13 +37,13 @@ const About = () => {
 
                          <div>
                               <h1 className='text-2xl text-center pt-5'>DON'T HESITATE TO CONTACT...!</h1>
-                              <div className='shadow-xl p-5 pt-10'>
+                              <div className='shadow-xl rounded-2xl p-5 pt-10'>
                                    <form ref={form} onSubmit={sendEmail}>
                                         <label>Name</label>
                                         <input className='input mb-1 input-bordered w-full' type="text" name="name" placeholder='Your Name' />
                                         <label>Email</label>
                                         <input className='input mb-1  input-bordered w-full' type="email" name="email" placeholder='Your Email' />
-                                        <label>Mobile No</label>
+                                        <label>Mobile </label>
                                         <input className='input mb-1  input-bordered w-full' type="text" name="number" placeholder='Your Number' />
                                         <label>Message</label>
                                         <textarea className='input h-20 mb-3 input-bordered w-full' name="message" placeholder='Write Message' />
@@ -52,7 +52,7 @@ const About = () => {
                               </div>
                          </div>
                     </div>
-                    <div className=''>
+                    <div className='p-5 md:p-0 mt-5'>
                          <img className='mx-auto' src={me} alt="" />
                     </div>
                </div>

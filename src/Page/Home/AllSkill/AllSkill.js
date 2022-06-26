@@ -18,9 +18,11 @@ import img16 from './img/netlyfy.jpg';
 
 
 
+
 const AllSkill = () => {
      return (
           <div className='lg:px-12 py-12 p-5'>
+               <h1 className='text-2xl text-center text-primary lg:text-5xl font-bold uppercase pb-10'>These are my skill set ....!</h1>
                <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-10'>
                     <div className='text-center hover:shadow-xl shadow rounded-xl'>
                          <div className="avatar">

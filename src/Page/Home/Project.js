@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 const Project = () => {
      return (
           <div id='project' className='lg:px-12 p-5'>
-               <h1 className='text-center font-bold text-primary text-3xl md:text-4xl lg:text-5xl uppercase  my-10'>This is my project...!</h1>
-               <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-12'>
+               <h1 className='text-center font-bold text-primary text-3xl md:text-4xl lg:text-5xl uppercase   my-10'>This is my project...!</h1>
+               <div className='grid lg:font-medium md:grid-cols-2 lg:grid-cols-3 gap-12'>
                     <div className="card  bg-base-100 shadow-xl">
                          <figure><img src={tools} alt="Shoes" /></figure>
                          <div className="card-body">
@@ -17,7 +17,7 @@ const Project = () => {
                               <div className="card-actions justify-end">
 
                                    <Link to='/handTools'>
-                                        <button className='btn btn-link'>Go To Details</button>
+                                        <button className='btn font-bold btn-link'>Go To Details</button>
                                    </Link>
 
                               </div>
@@ -31,7 +31,7 @@ const Project = () => {
                               <p>It is used,HTML,CSS, JS, Bootstrap, React, Node, MongoDb, Firebase</p>
                               <div className="card-actions justify-end">
                                    <Link to='/car'>
-                                        <button className='btn btn-link'>Go To Details</button>
+                                        <button className='btn font-bold btn-link'>Go To Details</button>
                                    </Link>
                               </div>
                          </div>
@@ -43,7 +43,7 @@ const Project = () => {
                               <p>It is used,HTML,CSS, JS, Bootstrap, React</p>
                               <div className="card-actions justify-end">
                                    <Link to='/tutor'>
-                                        <button className='btn btn-link'>Go To Details</button>
+                                        <button className='btn font-bold btn-link'>Go To Details</button>
                                    </Link>
 
                               </div>

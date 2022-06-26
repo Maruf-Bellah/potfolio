@@ -19,7 +19,7 @@ const AllProject = () => {
      }, [])
      return (
           <div className='lg:px-12 py-12 p-5'>
-               <h1 className='text-2xl text-center text-primary pb-10'>Last my project</h1>
+               <h1 className='text-2xl font-bold text-center lg:text-5xl text-primary pb-10 uppercase '>Last my project ...! </h1>
                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
 
 

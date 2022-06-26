@@ -57,7 +57,7 @@ const HandTool = () => {
                          <h1 className='text-2xl lg:font-bold'><span className='text-primary'>HAND TOOLS ___</span>Where you can do small chores in your house</h1>
 
 
-                         <h1 className='text-primary text-xl lg:font-bold uppercase'>Description</h1>
+                         <h1 className='text-primary text-xl lg:font-bold uppercase py-4'>Description</h1>
                          <div>
                               <p><span className='text-2xl mt-3'>✤</span>
                                    Responsive Full Stack App With Firebase And Admin Authentication,Dashboard Functionality For Admin And Customer.
@@ -69,7 +69,7 @@ const HandTool = () => {
                               <p><span className='text-2xl mt-3'>✤</span>
                                    Min Admin Can Add Or Remove Tools And Add Admin, And Also Change Order Status Other Side Customers Can Buy Tools, Check their Status, And Be Able To Give Their Review
                               </p>
-                              <h1 className='text-primary text-xl uppercase'>Technologies</h1>
+                              <h1 className='text-primary text-xl uppercase py-4'>Technologies</h1>
                               <button class="btn btn-sm btn-secondary m-2">JavaScript</button>
                               <button class="btn btn-sm btn-secondary m-2">ReactJs</button>
                               <button class="btn btn-sm btn-secondary m-2"> React Router</button>

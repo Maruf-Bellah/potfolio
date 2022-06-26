@@ -6,6 +6,7 @@ const Navber = () => {
           <li><Link to='/'>Home</Link></li>
           <li><Link to='allProject'>Projects</Link></li>
           <li><Link to='/allSkill'>All Skill</Link></li>
+          <li><Link to='/blog'>Blog</Link></li>
           <li><Link to='/about'>About</Link></li>
      </>
 

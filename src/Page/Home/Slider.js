@@ -2,9 +2,9 @@ import React from 'react';
 
 const Slider = () => {
      return (
-          <div className='py-12 my-12 lg:px-12  p-5'>
+          <div className='py-12 my-12 lg:px-12 rounded-3xl  p-5'>
                <h1 className='text-3xl md:text-4xl lg:text-5xl uppercase  font-bold bg-base-200 text-center py-12 text-primary '>Happy client says ...!</h1>
-               <div className="carousel bg-base-200 mx-auto">
+               <div className="carousel lg:font-medium bg-base-200 mx-auto">
                     <div id="item1" className="carousel-item  bg-base-200 mx-auto w-full">
                          <div className=' mx-auto md:w-3/4  lg:w-2/4'>
                               <div className='text-center '>

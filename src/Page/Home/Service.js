@@ -6,7 +6,7 @@ import location from './Location tracking.gif';
 const Service = () => {
      return (
           <div className='py-16 lg:px-12 p-5'>
-               <div className='grid lg:font-bold md:grid-cols-2 justify-center lg:grid-cols-3 gap-20'>
+               <div className='grid lg:font-medium md:grid-cols-2 justify-center lg:grid-cols-3 gap-20'>
                     <div className='text-center '>
                          <div className="avatar mb-5">
                               <div className="w-24  rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">

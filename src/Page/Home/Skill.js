@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 const Skill = () => {
      return (
           <div className='py-12 lg:px-12 p-5'>
-               <h1 className='text-3xl md:text-4xl lg:text-5xl uppercase font-bold text-center text-primary pb-8'>This is my skill...!</h1>
+               <h1 className='text-3xl  md:text-4xl lg:text-5xl uppercase font-bold text-center text-primary pb-8'>These are my skill set...!</h1>
                <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-10'>
                     <div className='text-center hover:shadow-2xl rounded-xl shadow'>
                          <div className="avatar ">
@@ -81,7 +81,7 @@ const Skill = () => {
                </div>
                <p className='text-right text-2xl p-3 hover:underline font-bold'>
                     <Link to='/allSkill'>
-                         <button className='btn btn-primary justify-end'>see more Skill</button>
+                         <button className='btn font-bold btn-secondary  justify-end'>see more Skill</button>
                     </Link>
                </p>
           </div>
