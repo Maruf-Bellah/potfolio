@@ -7,7 +7,7 @@ import img5 from './img/programer.png';
 import img6 from './img/convertion.png';
 import img7 from './img/nike.png';
 import img8 from './img/penguin.png';
-import img9 from './img/tSirt.png';
+import img9 from './img/gym.png';
 
 const AllProject = () => {
      const [projects, setProjects] = useState([]);
@@ -91,11 +91,11 @@ const AllProject = () => {
                     <div className="card card-compact  bg-base-100 shadow-xl">
                          <figure><img src={img9} alt="Shoes" /></figure>
                          <div className="card-body">
-                              <h2 className="card-title">TShirt Mania</h2>
-                              <p>It is used, HTML, SCC, JS</p>
+                              <h2 className="card-title">Gymnasium</h2>
+                              <p>It is used, HTML, SCC, Tailwind</p>
                               <div className="card-actions justify-end">
 
-                                   <a href="https://stirring-marzipan-95a441.netlify.app/" target='_blank' >
+                                   <a href="https://astounding-florentine-451199.netlify.app/" target='_blank' >
 
                                         <button className="btn btn-link">Lest Go to Website</button>
                                    </a>

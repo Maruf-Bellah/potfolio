@@ -11,7 +11,7 @@ import Slider from './Slider';
 
 const Home = () => {
      return (
-          <div className=''>
+          <div className='mx-auto'>
 
                <Banner></Banner>
                <Service></Service>
