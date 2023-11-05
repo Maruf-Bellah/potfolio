@@ -14,6 +14,7 @@ const About = () => {
                }, (error) => {
                     console.log(error.text);
                });
+          console.log('hello maruf bellah')
      };
      return (
           <div className='lg:px-12 pt-5'>
