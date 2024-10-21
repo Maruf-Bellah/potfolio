@@ -7,13 +7,12 @@ module.exports = {
     themes: [
       {
         doctortheme: {
-          primary: "#075985",
+          primary: "#6425cb",
           secondary: "#FBBF24",
           "base-100": "#ffffff",
         },
       },
-
     ],
   },
   plugins: [require("daisyui")],
-}
+};
